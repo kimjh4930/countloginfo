@@ -22,6 +22,7 @@ public class InfoFromFile {
 	private String brower;
 	private String apikey;
 	private int sum;
+	private int test;
 	
 	private int numOfCodeState[] = new int[]{0,0,0};
 	private int numOfServiceID[] = new int[]{0,0,0,0,0,0};
