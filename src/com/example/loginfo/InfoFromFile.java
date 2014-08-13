@@ -31,9 +31,7 @@ public class InfoFromFile {
 	private int test;
 	
 	private int numOfCodeState[] = new int[]{0,0,0};
-	private int numOfServiceID[] = new int[]{0,0,0,0,0,0};
 	private int numOfBrower[]	 = new int[]{0,0,0,0,0};
-	private int numOfapikey[];
 	
 	private HashMap<String, Integer> serviceHashmap = new HashMap<String, Integer>();
 	private HashMap<String, Integer> apiHashmap = new HashMap<String, Integer>();
@@ -78,13 +76,6 @@ public class InfoFromFile {
 				if(codeState.equals("[10]"))	 {numOfCodeState[0]++;}
 				if(codeState.equals("[200]"))	 {numOfCodeState[1]++;}
 				if(codeState.equals("[404]"))	 {numOfCodeState[2]++;}
-				//"blog","book","image","knowledge","news","vclip"
-				if(serviceID.equals("blog"))	 {numOfServiceID[0]++;}
-				if(serviceID.equals("book"))	 {numOfServiceID[1]++;}
-				if(serviceID.equals("image"))	 {numOfServiceID[2]++;}
-				if(serviceID.equals("knowledge")){numOfServiceID[3]++;}
-				if(serviceID.equals("news"))	 {numOfServiceID[4]++;}
-				if(serviceID.equals("vclip"))	 {numOfServiceID[5]++;}
 				//"\\[IE\\]","\\[Firefox\\]","\\[Safari\\]","\\[Chrome\\]","\\[Opera\\]"
 				if(brower.equals("[IE]"))		 {numOfBrower[0]++;}
 				if(brower.equals("[Firefox]"))	 {numOfBrower[1]++;}
