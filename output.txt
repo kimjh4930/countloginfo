@@ -1,0 +1,17 @@
+10  : 152
+200 : 4747
+404 : 101
+
+1st Service : knowledge
+2nd Service : news
+3rd Service : blog
+
+IE         : 85.34%
+Firefox    : 6.74%
+Safari     : 2.04%
+Chrome     : 2.78%
+Opera      : 3.1%
+
+apikey     : 2jdc
+
+peak time  : 2009-06-10 09:52
