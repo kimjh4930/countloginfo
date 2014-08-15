@@ -7,7 +7,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.TreeMap;
@@ -28,7 +27,6 @@ public class InfoFromFile {
 	private String muchApikey;
 	private String peakTime;
 	private int sum;
-	private int test;
 	
 	private int numOfCodeState[] = new int[]{0,0,0};
 	private int numOfBrower[]	 = new int[]{0,0,0,0,0};
@@ -40,11 +38,6 @@ public class InfoFromFile {
 	private TreeMap<String, Integer> serviceSortedmap = null;
 	private TreeMap<String, Integer> apiSortedmap = null;
 	private TreeMap<String, Integer> timeSortedmap = null;
-	
-	int equals = 0;
-	int notequals = 0;
-	//private String apiList[]	 = new String[]{};
-	private ArrayList<String> apiList = new ArrayList<String>();
 	
 	private AnalysisInfo analysisInfo = null;
 	private ValueComparator hashComparator = null;
